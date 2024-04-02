@@ -14,18 +14,17 @@ body {
     margin: 0 auto;
   }
   
-  /* Header styles */
   header {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #333; 
+    color: #fff; 
     padding: 40px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for elevation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   header h1 {
     font-size: 3em;
-    margin-bottom: 10px; /* Add spacing below the heading */
+    margin-bottom: 10px;
   }
   
   header p {
@@ -33,21 +32,21 @@ body {
   }
   
   nav {
-    background-color: #333; /* Dark background color */
-    padding: 10px 0; /* Reduced padding */
-    text-align: center; /* Center align the content */
+    background-color: #333; 
+    padding: 10px 0; 
+    text-align: center; 
   }
   
   nav .container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center align the items horizontally */
+    justify-content: center; 
   }
   
   
   .menu-button {
     display: none;
-    color: #fff; /* White text color */
+    color: #fff; 
     font-size: 1.5em;
     cursor: pointer;
   }
@@ -64,18 +63,17 @@ body {
   }
   
   .menu-items li a {
-    color: #fff; /* White text color */
+    color: #fff; 
     text-decoration: none;
     font-size: 1.2em;
   }
   
   .menu-items li a:hover {
-    color: #ffcc00; /* Yellow text color on hover */
+    color: #ffcc00; 
   }
   
-  /* Services section styles */
   #services {
-    background-color: #f9f9f9; /* Light gray background color */
+    background-color: #f9f9f9;
     padding: 50px 0;
   }
   
@@ -88,7 +86,7 @@ body {
   #services .service-box {
     width: 45%;
     padding: 20px;
-    background-color: #ffffff; /* White color */
+    background-color: #ffffff; 
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -102,39 +100,37 @@ body {
   
   #services .service-box h3 {
     font-size: 1.5em;
-    color: #333; /* Dark text color */
+    color: #333;
   }
   
   #services .service-box p {
     font-size: 1.1em;
-    color: #666; /* Medium text color */
+    color: #666; 
   }
   
-  /* About section styles */
   #about {
-    background-color: #f9f9f9; /* Light gray background color */
+    background-color: #f9f9f9;
     padding: 50px 0;
   }
   
   #about h2 {
     font-size: 2em;
-    color: #333; /* Dark text color */
+    color: #333;
   }
   
   #about p {
     font-size: 1.1em;
-    color: #666; /* Medium text color */
+    color: #666; 
   }
   
-  /* Contact section styles */
   #contact {
-    background-color: #f9f9f9; /* Light gray background color */
+    background-color: #f9f9f9;
     padding: 50px 0;
   }
   
   #contact h2 {
     font-size: 2em;
-    color: #333; /* Dark text color */
+    color: #333;
   }
   
   #contact form {
@@ -151,7 +147,7 @@ body {
     padding: 15px;
     border: none;
     border-radius: 5px;
-    background-color: #fff; /* White background color */
+    background-color: #fff; 
   }
   
   #contact textarea.form-input {
@@ -159,8 +155,8 @@ body {
   }
   
   #contact button {
-    background-color: #333; /* Dark button color */
-    color: #fff; /* White text color */
+    background-color: #333; 
+    color: #fff; 
     border: none;
     padding: 15px 30px;
     cursor: pointer;
@@ -169,13 +165,12 @@ body {
   }
   
   #contact button:hover {
-    background-color: #555; /* Darker button color on hover */
+    background-color: #555;
   }
   
-  /* Footer styles */
-  footer {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
+   footer {
+    background-color: #333;
+    color: #fff; 
     padding: 20px 0;
     text-align: center;
   }
@@ -200,17 +195,16 @@ body {
   }
   
   .social-icons li a {
-    color: #fff; /* White text color */
+    color: #fff; 
     text-decoration: none;
     font-size: 1.5em;
   }
   
   .social-icons li a:hover {
-    color: #ffcc00; /* Yellow text color on hover */
+    color: #ffcc00; 
   }
   
-  /* Modal styles */
-  .modal {
+   .modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -223,13 +217,12 @@ body {
   }
   
   .modal-content {
-    background-color: #fff; /* White background color */
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
-  /* Loader styles */
   .loader {
     position: fixed;
     top: 0;
@@ -242,7 +235,6 @@ body {
     align-items: center;
   }
   
-  /* Particles.js container */
   #particles-js {
     position: absolute;
     top: 0;
