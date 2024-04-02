@@ -5,7 +5,6 @@
 */
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -18,23 +17,18 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Form submission animation
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
 
-        // Simulate submission
         setTimeout(function() {
             alert('Form submitted successfully!');
-            // Reset form fields
             document.getElementById('contact-form').reset();
         }, 1000);
     });
 
-    // Hero section animation
     const heroSection = document.querySelector('.hero-section');
     heroSection.classList.add('animate__animated', 'animate__fadeIn');
 
-    // Parallax scrolling effect
     window.addEventListener('scroll', function() {
         const parallaxSections = document.querySelectorAll('.parallax-section');
 
@@ -46,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Hover effects
     const hoverElements = document.querySelectorAll('.hover-effect');
 
     hoverElements.forEach(element => {
@@ -59,23 +52,18 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Slider transition
     const slider = document.querySelector('.slider');
 
     slider.addEventListener('click', function() {
-        // Code to transition between slides
     });
 
-    // Form validation animation
     const formInputs = document.querySelectorAll('.form-input');
 
     formInputs.forEach(input => {
         input.addEventListener('input', function() {
-            // Code to validate input and apply animation
         });
     });
 
-    // Menu animation
     const menuButton = document.querySelector('.menu-button');
     const menuItems = document.querySelectorAll('.menu-item');
 
@@ -85,26 +73,20 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Testimonial carousel animation
     const testimonialCarousel = document.querySelector('.testimonial-carousel');
 
     testimonialCarousel.addEventListener('click', function() {
-        // Code to transition between testimonials
     });
 
-    // Scroll reveal effects
     ScrollReveal().reveal('.reveal-element', { delay: 300, duration: 1000, distance: '50px', origin: 'bottom', easing: 'ease-in-out', reset: true });
 
-    // Interactive car customization animation
     const customizationOptions = document.querySelectorAll('.customization-option');
 
     customizationOptions.forEach(option => {
         option.addEventListener('click', function() {
-            // Code to update car visualization based on selected options
         });
     });
 
-    // Animated call-to-action buttons
     const ctaButton = document.querySelector('.cta-button');
 
     ctaButton.addEventListener('mouseenter', function() {
@@ -115,17 +97,14 @@ document.addEventListener("DOMContentLoaded", function() {
         this.classList.remove('animate__animated', 'animate__pulse');
     });
 
-    // Footer animation
     const footer = document.querySelector('footer');
 
     footer.classList.add('animate__animated', 'animate__fadeInUp');
 
-    // Background particle animation
     particlesJS.load('particles-js', 'particles.json', function() {
         console.log('Particles loaded');
     });
 
-    // Modal animation
     const modalButton = document.querySelector('.modal-button');
     const modal = document.querySelector('.modal');
 
