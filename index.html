@@ -1,0 +1,108 @@
+<!-- Car Customization Website
+    Created by lilmutton 
+    Github : https://github.com/LilMuttonJr
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Customization Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+</head>
+<body>
+  <header class="hero-section">
+    <div class="container">
+      <h1>Welcome to Car Customization</h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <div class="menu-button"><i class="fas fa-bars"></i></div>
+      <ul class="menu-items">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about" class="parallax-section">
+    <div class="container">
+      <h2 class="reveal-element">About Us</h2>
+      <p class="reveal-element">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Curabitur vitae nisi non libero efficitur feugiat ut eu urna. Sed pharetra dui a tortor posuere, non consequat dolor dapibus. Suspendisse potenti. Phasellus consectetur velit sit amet ante ultrices, id lacinia magna condimentum. Praesent ut leo ut nisi convallis dictum. Nam maximus erat sit amet odio facilisis, at vehicula urna eleifend.</p>
+    </div>
+  </section>
+
+  <section id="services" class="parallax-section">
+    <div class="container">
+      <h2 class="reveal-element">Our Services</h2>
+      <div class="service-boxes">
+        <div class="service-box hover-effect">
+          <h3>Body Modifications</h3>
+          <p>Enhance the appearance of your car with our custom body modifications.</p>
+        </div>
+        <div class="service-box hover-effect">
+          <h3>Engine Upgrades</h3>
+          <p>Boost your car's performance with our high-quality engine upgrade options.</p>
+        </div>
+        <div class="service-box hover-effect">
+          <h3>Interior Design</h3>
+          <p>Upgrade your car's interior for comfort and style with our premium interior design services.</p>
+        </div>
+        <div class="service-box hover-effect">
+          <h3>Custom Paint Jobs</h3>
+          <p>Add a personal touch to your car with our expert custom paint jobs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="parallax-section">
+    <div class="container">
+      <h2 class="reveal-element">Contact Us</h2>
+      <form id="contact-form" class="reveal-element" action="https://formspree.io/f/mleqpvbw" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" class="form-input" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="_replyto" class="form-input" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" class="form-input" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="cta-button">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+        <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      <p>&copy; 2024 Car Customization. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="modal">
+    <div class="modal-content">
+      <h2>Modal Title</h2>
+      <p>This is a modal window. You can use it to display additional information or interactive content.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
