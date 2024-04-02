@@ -4,6 +4,7 @@
    Github : https://github.com/LilMuttonJr
 */
 
+
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
