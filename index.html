@@ -22,6 +22,12 @@
         <div class="loader"></div>
         <p>Loading...</p>
     </div>
+    <script>
+        setTimeout(function(){
+            document.querySelector('.loading-screen').style.display = 'none';
+            document.querySelector('.content').classList.remove('hidden');
+        }, 3000);
+    </script>
         
   <header class="hero-section">
     <div class="container">
