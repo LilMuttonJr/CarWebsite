@@ -117,4 +117,9 @@ document.addEventListener("DOMContentLoaded", function() {
             modal.classList.remove('visible');
         }
     });
+
+    setTimeout(function() {
+        document.getElementById('loading-screen').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+    }, 2000); 
 });
