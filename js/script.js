@@ -119,8 +119,4 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    setTimeout(function() {
-        document.getElementById('loading-screen').style.display = 'none';
-        document.getElementById('main-content').style.display = 'block';
-    }, 2000); 
 });
