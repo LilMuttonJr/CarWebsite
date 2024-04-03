@@ -7,204 +7,203 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  .container {
+}
+
+.container {
     width: 80%;
     margin: 0 auto;
-  }
-  
-  header {
-    background-color: #333; 
-    color: #fff; 
+}
+
+header {
+    background-color: #ffe6bd; /* Champagne */
+    color: #fff;
     padding: 40px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  }
-  
-  header h1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
     font-size: 3em;
     margin-bottom: 10px;
-  }
-  
-  header p {
+}
+
+header p {
     font-size: 1.2em;
-  }
-  
-  nav {
-    background-color: #333; 
-    padding: 10px 0; 
-    text-align: center; 
-  }
-  
-  nav .container {
+}
+
+nav {
+    background-color: #ffe6bd; /* Champagne */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav .container {
     display: flex;
     align-items: center;
-    justify-content: center; 
-  }
-  
-  
-  .menu-button {
+    justify-content: center;
+}
+
+.menu-button {
     display: none;
-    color: #fff; 
+    color: #fff;
     font-size: 1.5em;
     cursor: pointer;
-  }
-  
-  .menu-items {
+}
+
+.menu-items {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .menu-items li {
+}
+
+.menu-items li {
     margin: 0 10px;
-  }
-  
-  .menu-items li a {
-    color: #fff; 
+}
+
+.menu-items li a {
+    color: #fff;
     text-decoration: none;
     font-size: 1.2em;
-  }
-  
-  .menu-items li a:hover {
-    color: #ffcc00; 
-  }
-  
-  #services {
-    background-color: #f9f9f9;
+}
+
+.menu-items li a:hover {
+    color: #ffcc00;
+}
+
+#services {
+    background-color: #fff; /* White */
     padding: 50px 0;
-  }
-  
-  #services .service-boxes {
+}
+
+#services .service-boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  #services .service-box {
+}
+
+#services .service-box {
     width: 45%;
     padding: 20px;
-    background-color: #ffffff; 
+    background-color: #ffe6bd; /* Champagne */
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
     transition: all 0.3s ease;
-  }
-  
-  #services .service-box:hover {
+}
+
+#services .service-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  #services .service-box h3 {
+}
+
+#services .service-box h3 {
     font-size: 1.5em;
     color: #333;
-  }
-  
-  #services .service-box p {
+}
+
+#services .service-box p {
     font-size: 1.1em;
-    color: #666; 
-  }
-  
-  #about {
-    background-color: #f9f9f9;
+    color: #666;
+}
+
+#about {
+    background-color: #fff; /* White */
     padding: 50px 0;
-  }
-  
-  #about h2 {
+}
+
+#about h2 {
     font-size: 2em;
     color: #333;
-  }
-  
-  #about p {
+}
+
+#about p {
     font-size: 1.1em;
-    color: #666; 
-  }
-  
-  #contact {
-    background-color: #f9f9f9;
+    color: #666;
+}
+
+#contact {
+    background-color: #fff; /* White */
     padding: 50px 0;
-  }
-  
-  #contact h2 {
+}
+
+#contact h2 {
     font-size: 2em;
     color: #333;
-  }
-  
-  #contact form {
+}
+
+#contact form {
     max-width: 500px;
     margin: 0 auto;
-  }
-  
-  #contact .form-group {
+}
+
+#contact .form-group {
     margin-bottom: 20px;
-  }
-  
-  #contact .form-input {
+}
+
+#contact .form-input {
     width: 100%;
     padding: 15px;
     border: none;
     border-radius: 5px;
-    background-color: #fff; 
-  }
-  
-  #contact textarea.form-input {
+    background-color: #fff;
+}
+
+#contact textarea.form-input {
     resize: none;
-  }
-  
-  #contact button {
-    background-color: #333; 
-    color: #fff; 
+}
+
+#contact button {
+    background-color: #ffe6bd; /* Champagne */
+    color: #fff;
     border: none;
     padding: 15px 30px;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-  }
-  
-  #contact button:hover {
+}
+
+#contact button:hover {
     background-color: #555;
-  }
-  
-   footer {
-    background-color: #333;
-    color: #fff; 
+}
+
+footer {
+    background-color: #ffe6bd; /* Champagne */
+    color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
-  
-  footer p {
+}
+
+footer p {
     margin: 0;
-  }
-  
-  .social-icons {
+}
+
+.social-icons {
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
-  }
-  
-  .social-icons li {
+}
+
+.social-icons li {
     display: inline-block;
     margin-right: 10px;
-  }
-  
-  .social-icons li:last-child {
+}
+
+.social-icons li:last-child {
     margin-right: 0;
-  }
-  
-  .social-icons li a {
-    color: #fff; 
+}
+
+.social-icons li a {
+    color: #fff;
     text-decoration: none;
     font-size: 1.5em;
-  }
-  
-  .social-icons li a:hover {
-    color: #ffcc00; 
-  }
-  
-   .modal {
+}
+
+.social-icons li a:hover {
+    color: #ffcc00;
+}
+
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -214,16 +213,16 @@ body {
     display: none;
     justify-content: center;
     align-items: center;
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .loader {
+}
+
+.loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -233,16 +232,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  #particles-js {
+}
+
+#particles-js {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
-  #loading-screen {
+}
+
+#loading-screen {
     position: fixed;
     top: 0;
     left: 0;
@@ -269,18 +269,25 @@ body {
     width: 50px;
     height: 50px;
     animation: spin 1s linear infinite;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
-
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #main-content {
@@ -289,6 +296,10 @@ body {
 }
 
 @keyframes fadeInContent {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
