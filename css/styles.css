@@ -32,7 +32,7 @@ header p {
 }
 
 nav {
-    background-color: #ffe6bd; /* Champagne */
+    background-color: #ADDFFF; /* Champagne */
     padding: 10px 0;
     text-align: center;
 }
@@ -85,7 +85,7 @@ nav .container {
 #services .service-box {
     width: 45%;
     padding: 20px;
-    background-color: #ffe6bd; /* Champagne */
+    background-color: #ADDFFF; /* Champagne */
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -154,7 +154,7 @@ nav .container {
 }
 
 #contact button {
-    background-color: #ffe6bd; /* Champagne */
+    background-color: #ADDFFF; /* Champagne */
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -168,7 +168,7 @@ nav .container {
 }
 
 footer {
-    background-color: #ffe6bd; /* Champagne */
+    background-color: #ADDFFF; /* Champagne */
     color: #fff;
     padding: 20px 0;
     text-align: center;
