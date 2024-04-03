@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9; /* Light Gray */
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #ADDFFF; /* Champagne */
+    background-color: #5782a2; /* Blueish */
     color: #fff;
     padding: 40px 0;
     text-align: center;
@@ -32,7 +33,7 @@ header p {
 }
 
 nav {
-    background-color: #ADDFFF; /* Champagne */
+    background-color: #5782a2; /* Blueish */
     padding: 10px 0;
     text-align: center;
 }
@@ -85,7 +86,7 @@ nav .container {
 #services .service-box {
     width: 45%;
     padding: 20px;
-    background-color: #ADDFFF; /* Champagne */
+    background-color: #f9f9f9; /* Light Gray */
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -146,7 +147,7 @@ nav .container {
     padding: 15px;
     border: none;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #f9f9f9; /* Light Gray */
 }
 
 #contact textarea.form-input {
@@ -154,7 +155,7 @@ nav .container {
 }
 
 #contact button {
-    background-color: #ADDFFF; /* Champagne */
+    background-color: #5782a2; /* Blueish */
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -164,11 +165,11 @@ nav .container {
 }
 
 #contact button:hover {
-    background-color: #555;
+    background-color: #444; /* Dark Gray */
 }
 
 footer {
-    background-color: #ADDFFF; /* Champagne */
+    background-color: #5782a2; /* Blueish */
     color: #fff;
     padding: 20px 0;
     text-align: center;
